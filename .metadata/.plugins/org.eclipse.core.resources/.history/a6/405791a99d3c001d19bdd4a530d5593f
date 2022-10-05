@@ -1,0 +1,7 @@
+package customerRunners;
+
+public class Customer {
+	private String name;
+	private Addrees address;
+
+}

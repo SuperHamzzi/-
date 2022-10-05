@@ -1,0 +1,13 @@
+package runner;
+
+public class AirplaneRunner {
+	public static void main(String[] args) {
+		Airplane asia = new Airplane();
+		Airplane china = new Airplane();
+		Airplane japan = new Airplane();
+		asia.start();
+		china.start();
+		japan.start();
+	}
+
+}

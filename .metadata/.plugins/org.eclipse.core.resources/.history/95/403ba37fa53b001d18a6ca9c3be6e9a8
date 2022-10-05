@@ -1,0 +1,17 @@
+package java_primitve_data_types;
+
+import java.math.BigDecimal;
+import java.util.Scanner;
+
+
+public class runner {
+	public static void main(String[] args) {
+		Scanner  sc = new Scanner(System.in);
+		BigDecimal number1 = sc.nextBigDecimal();
+		BigDecimal number2 = new BigDecimal("342234");
+		number1.add(number2);
+		System.out.println(number2);
+		
+	}
+
+}

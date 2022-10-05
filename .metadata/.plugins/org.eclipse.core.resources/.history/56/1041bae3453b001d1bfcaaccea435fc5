@@ -1,0 +1,12 @@
+package runner;
+
+public class Books {
+
+	public static void main(String[] args) {
+		BookRunner artOfComputerProgramming =new BookRunner(); 
+		BookRunner effectiveJava =new BookRunner(); 
+		BookRunner cleanCode =new BookRunner(); 
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package runner;
+
+public class Airplane {
+	private int speed;
+	
+	public int setSpeed(int speed) {
+		this.speed = speed;
+		}
+	
+	void start() {
+		System.out.println("Airplane Start");
+	}
+
+}

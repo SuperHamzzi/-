@@ -1,0 +1,13 @@
+package java_primitve_data_types;
+
+import java.math.BigDecimal;
+
+public class runner {
+	public static void main(String[] args) {
+		BigDecimal number1 = new BigDecimal("34.585834843");
+		BigDecimal number2 = new BigDecimal("342234");
+		System.out.println(number1);
+		
+	}
+
+}

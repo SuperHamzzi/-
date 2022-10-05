@@ -1,0 +1,14 @@
+package customerRunners;
+
+public class CustomerRunner {
+	public static void main(String[] args) {
+		Address homeAddress = new Address("212동", "서울","50005");
+		Customer customer = new Customer("김재혁",homeAddress);
+		
+		Address workAddress = new Address("line 1 for work", "뉴욕","50005");
+		customer.setWorkAddress(workAddress);
+		System.out.println(customer);
+		
+	}
+
+}

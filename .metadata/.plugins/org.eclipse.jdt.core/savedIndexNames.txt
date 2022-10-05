@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\gksrn\OneDrive\바탕 화면\새 폴더\.metadata\.plugins\org.eclipse.jdt.core
+2446798781.index
+3131097454.index
+845600537.index
+961523312.index

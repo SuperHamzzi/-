@@ -1,0 +1,24 @@
+package charRunner;
+
+public class MyChar {
+
+	public MyChar(char c) {
+		
+	}
+
+	public char[] isVowel() {
+	if()
+		return null;
+	}
+
+	public char[] isNumber() {
+		return null;
+	}
+
+	public char[] isAlphabet() {
+		
+		return null;
+	}
+	
+
+}

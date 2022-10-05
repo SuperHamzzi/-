@@ -1,0 +1,18 @@
+package customerRunners;
+
+public class CustomerRunner {
+	public static void main(String[] args) {
+		Address homeAddress = new Address("hrtthr", "hrthrt","50005");
+		Customer customer = new Customer("rtr",homeAddress);
+		
+		Address workAddress = new Address("line 1 for work", "ererg","50005");
+		customer.setWorkAddress(workAddress);
+	
+		System.out.println(customer);
+		
+	}
+	
+	public String toString() {
+		return line1 + " " + city + " " + zip;
+	}
+}

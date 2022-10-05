@@ -1,0 +1,9 @@
+
+public class MyChar {
+	
+	this.isVowel=isVowel;
+	public MyChar(char c) {
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package runner;
+
+public class Airplane {
+	
+	void start() {
+		System.out.println("Airplane Start");
+	}
+
+}

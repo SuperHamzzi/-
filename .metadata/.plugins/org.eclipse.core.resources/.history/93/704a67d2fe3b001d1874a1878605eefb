@@ -1,0 +1,13 @@
+package StudentRunner;
+
+
+public class RectangleRunner {
+	public static void main(String[] args) {
+		Rectangle rec = new Rectangle(5,4);
+		
+		rec.area();
+		System.out.println(rec.area());
+	}
+	
+
+}

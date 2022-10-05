@@ -1,0 +1,10 @@
+package fanRunner;
+
+public class FanRunner {
+	public static void main(String[] args) {
+		Fan fan = new Fan("samsung1",5.5,"Red");
+	System.out.println(fan);
+		fan.isOn(false);
+		fan.speed(5);
+	}
+}

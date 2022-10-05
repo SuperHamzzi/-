@@ -1,0 +1,19 @@
+package runner;
+
+public class MotoBikeRunner {
+
+	public static void main(String[] args) {
+		MotorBike ducati = new MotorBike(); 
+ 		MotorBike honda = new MotorBike();
+	
+		ducati.start();
+		honda. start();
+	
+		ducati.setSpeed(-100); 
+		System.out.println(ducati.getSpeed());
+
+		
+
+	}
+
+}

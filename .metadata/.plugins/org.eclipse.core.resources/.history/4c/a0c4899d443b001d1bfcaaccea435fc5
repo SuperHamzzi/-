@@ -1,0 +1,36 @@
+package runner;
+
+public class MotorBike {	
+
+private int speed;
+
+
+
+public int getSpeed() {
+	if(speed>0)
+	return speed;
+}
+
+
+
+public void setSpeed(int speed) {
+	
+	this.speed = speed;
+}
+public void increaseSpeed(int howMuch) {
+	this.speed = this.speed+howMuch;
+}
+public void decreaseSpeed(int howMuch) {
+	
+	this.speed = this.speed-howMuch;
+}
+
+
+
+void start() {
+	System.out.println("Bike Started");
+}
+
+}
+
+	

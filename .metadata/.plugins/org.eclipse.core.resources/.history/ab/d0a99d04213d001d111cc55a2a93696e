@@ -1,0 +1,8 @@
+package customerRunners;
+
+public class CustomerRunner {
+	public static void main(String[] args) {
+		Customer customer = new Customer("김재혁","서울","12","121");
+	}
+
+}
